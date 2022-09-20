@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.wrapper {
+    width: 1200px;
+
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+
+}
+
+
+
+
+.menu ul {
+   
+    width: 300px;
+    height: auto;
+    background-color: #57d8f5;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    width: 300px;
+    z-index: auto;
+}
+
+.menu li {
+    list-style: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #fff;
+    color: #FFFAFA;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.menu li:hover {
+    background: #16db93;
+    width: 266px;
+}
+
+.menu li {
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    transition: all .9s ease;
+}
+
+.menu a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #f1f1f1;
+    min-height: 150px;
+
+}
+
+.header h1 {
+    color: #57d8f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 900px;
+    right: 900px;
+    display: inline;
+
+}
+
+
+
+.content {
+
+
+    background-color: #f1f1f1;
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.footer {
+    background-color: #f1f1f1ff;
+    min-height: 300px;
+    display: block;
+    text-align: center;
+
+}
+
+
+.content img {
+
+
+    position: absolute;
+    right: 20%;
+
+
+}
+
+.content table {
+    position: absolute;
+    right: 30%;
+
+}
+
+table, tr, td {
+    border: 1px solid black;
+    padding: 14px;
+    line-height: 25px;
+    box-sizing: border-box;
+    left: 35%;
+
+
+}
+
+tr:nth-child(1) {
+    background-color: #085F63;
+
+}
+
+tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+
+}
+
+.footer {
+    text-align: center;
+
+
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    text-transform: uppercase;
+    padding: 50px;
+    cursor: pointer;
+
+
+}
